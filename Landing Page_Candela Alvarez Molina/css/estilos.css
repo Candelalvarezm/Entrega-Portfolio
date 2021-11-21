@@ -1,0 +1,50 @@
+
+
+@font-face {
+    font-family: 'bigillabold';
+    src: url(/Tipografias/bigilla-bold-webfont.woff2) format('woff2'),
+         url(/Tipografias/bigilla-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bigillaregular';
+    src: url(/Tipografias/bigilla-bold-webfont.woff2) format('woff2'),
+         url(/Tipografias/bigilla-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gilroy-regularuploaded_files';
+    src: url(/Tipografias/gilroy-light-webfont.woff2) format('woff2'),
+         url(/Tipografias/gilroy-light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroy-regularuploaded_file';
+    src: url(/Tipografias/gilroy-regular-webfont.woff2) format('woff2'),
+         url(/Tipografias/gilroy-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+* {box-sizing: border-box;}
+body {background-color: #EEEEEE;}
+nav {font-family: 'gilroy-regularuploaded_file'; font-size: 1.2rem;}
+header {font-family: 'gilroy-regularuploaded_file'; height: 80vh;}
+h1 {font-size: 15rem; line-height: 1em; font-family: 'bigillabold';}
+h3 {font-size: 3rem; font-family: 'gilroy-regularuploaded_file';}
+h4 {font-size: 2rem;font-family: 'gilroy-regularuploaded_files';}
+
